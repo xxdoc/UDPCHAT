@@ -1,0 +1,169 @@
+[Root]
+Most Recent Package=script1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Users\Kowshik\Desktop\New Folder (2)
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SysWOW64\scrrun.dll=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Users\Kowshik\Desktop\myudpchat.exe=Yes
+C:\WINDOWS\System32\msvbvm60.dll=Yes
+C:\WINDOWS\System32\oleaut32.dll=Yes
+C:\WINDOWS\System32\olepro32.dll=Yes
+C:\WINDOWS\System32\asycfilt.dll=Yes
+C:\WINDOWS\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SysWOW64\scrrun.dll=Yes
+C:\WINDOWS\SysWOW64\msvcrt.dll=Yes
+C:\WINDOWS\SysWOW64\MSWINSCK.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\Users\Kowshik\Desktop\myudpchat.exe=$(AppPath)
+C:\WINDOWS\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SysWOW64\MSWINSCK.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=myudpchat.CAB
+DepCabRun=myudpchat.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Users\Kowshik\Desktop\New Folder (2)
+ProjectFolder=C:\Users\Kowshik\Desktop\myudpchat
+ServerSideCab=
+File1=C:\Users\Kowshik\Desktop\New Folder (2)\myudpchat.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|script1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Kowshik\Desktop\New Folder (2)
+
+[Package|script1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|script1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|script1|Files Found]
+
+[Package|script1|Files Released]
+
+[Package|script1|Missing Dependency Information]
+
+[Package|script1|Out-of-Date Dependency Information]
+C:\WINDOWS\SysWOW64\scrrun.dll=
+
+[Package|script1|Files Added]
+
+[Package|script1|Files Removed]
+
+[Package|script1|Files In Project]
+C:\Users\Kowshik\Desktop\myudpchat.exe=Yes
+C:\WINDOWS\System32\msvbvm60.dll=Yes
+C:\WINDOWS\System32\oleaut32.dll=Yes
+C:\WINDOWS\System32\olepro32.dll=Yes
+C:\WINDOWS\System32\asycfilt.dll=Yes
+C:\WINDOWS\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SysWOW64\scrrun.dll=Yes
+C:\WINDOWS\SysWOW64\msvcrt.dll=Yes
+C:\WINDOWS\SysWOW64\MSWINSCK.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|script1|Configure Registry Files]
+Applicable=No
+
+[Package|script1|Configure Remote Servers]
+Applicable=No
+
+[Package|script1|Install Locations]
+C:\Users\Kowshik\Desktop\myudpchat.exe=$(AppPath)
+C:\WINDOWS\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SysWOW64\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|script1|Configure Shared Files]
+Applicable=Yes
+C:\Users\Kowshik\Desktop\myudpchat.exe=Yes
+
+[Package|script1|DepFile]
+DepCabFile=myudpchat.CAB
+DepCabRun=myudpchat.INF
+
+[Package|script1|Distribution]
+Type=single
+Size=
+Title=Lan Messenger
+
+[Package|script1|IconGroups]
+Group0=Lan Messenger
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|script1|Lan Messenger]
+Icon1=myudpchat.exe
+Title1=Lan Messenger
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|script1|Package]
+PackageFolder=C:\Users\Kowshik\Desktop\New Folder (2)
+ProjectFolder=C:\Users\Kowshik\Desktop\myudpchat
+ServerSideCab=
+File1=C:\Users\Kowshik\Desktop\New Folder (2)\setup.exe
+File2=C:\Users\Kowshik\Desktop\New Folder (2)\Setup.Lst
+File3=C:\Users\Kowshik\Desktop\New Folder (2)\myudpchat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
